@@ -54,9 +54,6 @@ const clearForm = () => {
 };
 form.addEventListener("submit", () => {
   event.preventDefault();
-  // required.forEach((element) => {
-  //   element.classList.remove("active");
-  // });
   if (
     required[0].lastElementChild.value != "" &&
     required[1].lastElementChild.value != "" &&
@@ -99,6 +96,3 @@ form.addEventListener("input", () => {
   }
 });
 
-const validation = () => {};
-// .remove();
-// элемент.parentNode
