@@ -76,7 +76,6 @@ h6 {
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Source+Sans+Pro:wght@400;600&display=swap");
 body {
   font-family: "Source Sans Pro", sans-serif;
-  background: rgba(255, 254, 251, 0.8);
   --main-color: #3f3f3f;
   --main-bg: #fffefb;
   --err-color: #ff8484;
@@ -95,7 +94,7 @@ body {
     font-weight: 600;
     font-size: 28px;
     line-height: 35px;
-    color: #3f3f3f;
+    color: var(--main-color);
   }
 
   &__select {
